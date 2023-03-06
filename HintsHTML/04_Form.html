@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+<h1>Формы</h1>
+<form>
+<div>
+  <label for="text"> Текст </label>
+  <input type="text" id="text">
+</div>
+  <div>
+    <label for="email"> Email </label>
+    <input type="email" id="email" placeholder="Введите email">
+  </div>
+  <label for="password"> Пароль </label>
+  <input type="password" id="password">
+  </div>
+  <div>
+  <label for="number"> Число </label>
+  <input type="number" id="number" min="0">
+  </div>
+  <div>
+    <label for="range"> Бегунок </label>
+    <input type="range" id="range" step="4" max="20">
+  </div>
+  <div>
+    <label for="date"> Дата </label>
+    <input type="date" id="date">
+  </div>
+  <div>
+  <label for="color"> Цвет </label>
+  <input type="color" id="color">
+  </div>
+  <div>
+  <label for="massage"> Сообщение </label>
+  <br>
+  <textarea id="massage" cols="20" rows="5"></textarea>
+  </div>
+  <div>
+    <label for="sex"> Ваш пол </label>
+    <select id="sex">
+      <option value="male"> Мужчина</option>
+      <option value="female"> Женщина</option>
+      <option value="helicopter"> Вертолет</option>
+    </select>
+  </div>
+  <div>
+    <label> Количество работ </label>
+    <input type="radio" name="work"> 1
+    <input type="radio" name="work"> 2
+    <input type="radio" name="work"> 5
+    <input type="radio" name="work"> 10
+  </div>
+  <div>
+    <label> Любимая еда </label>
+    <input type="checkbox" name="food"> Суши
+    <input type="checkbox" name="food"> Паста
+    <input type="checkbox" name="food"> Пицца
+    <input type="checkbox" name="food"> Огурцы
+  </div>
+  <button type="submit"> Отправить форму</button>
+</form>
+</body>
+</html>

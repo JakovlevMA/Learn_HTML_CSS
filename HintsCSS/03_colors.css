@@ -1,0 +1,19 @@
+.color-1 {
+    color: darkred;
+}
+/*Red.Green.Blue*/
+.color-2 {
+    color: #f2786f;
+}
+.color-3 {
+    color: #ddd;
+}
+/* 0 - 255 */
+.color-4 {
+    color: rgb(255, 0, 255);
+    opacity: 0.2;
+}
+/*Последнее значение - прозрачность*/
+.color-5 {
+    color: rgb(150, 0, 0, 0.2)
+}
